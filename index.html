@@ -2,9 +2,62 @@
 <html>
 <head>
   <title>Siva Website</title>
+
+  <style>
+    body {
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+      padding-top: 100px;
+    }
+
+    h1 {
+      font-size: 50px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    .card {
+      background: rgba(0,0,0,0.3);
+      padding: 20px;
+      border-radius: 15px;
+      width: 300px;
+      margin: auto;
+    }
+
+    button {
+      background: #ff7eb3;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #ff4e91;
+    }
+  </style>
+
 </head>
+
 <body>
-  <h1>Hello Mama 😄</h1>
-  <p>This is my first GitHub project 🚀</p>
+
+  <div class="card">
+    <h1>Hello Mama 😄</h1>
+    <p>I am Siva 🚀 Learning DevOps</p>
+
+    <button onclick="showMsg()">Click Me</button>
+  </div>
+
+  <script>
+    function showMsg() {
+      alert("Welcome Mama 🔥");
+    }
+  </script>
+
 </body>
 </html>
